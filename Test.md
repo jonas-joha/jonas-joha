@@ -1,4 +1,4 @@
-DM(DPGRD) – Dumping Ground
+## DM(DPGRD) – Dumping Ground   (**Point**, ~~Curve~~, **Surface**)
 
 **S-4 references**: B-412; B-446  
 **S-57 references**: 11.4 Dumping ground (DM(DPGRD) P/A)  
@@ -7,6 +7,11 @@ DM(DPGRD) – Dumping Ground
 > **Definition:**  
 > A dumping ground is a sea area where dredged material or other potentially more harmful material (e.g. explosives, chemical wastes) is deliberately deposited.
 
+---
+
+| Real World                       | GST Paper Chart                      | ECDIS                   |
+|----------------------------------|--------------------------------------|-------------------------|
+|                                  |![image-20221002-123102](https://github.com/user-attachments/assets/6ab4ab36-6402-4161-882b-1bcd030cd918) ![image-20221002-123117](https://github.com/user-attachments/assets/d33f5ff7-a611-4e8c-b006-83a7aa6a4fc0) |
 ---
 
 ## Attribute Encoding Table
@@ -42,7 +47,7 @@ DM(DPGRD) – Dumping Ground
   _(none)_
 
 - **Scale:**  
-  As per S-4 guidance
+ Charts shall follow the standard IHO 1-2-5 progression (… 1:5 000; 1:10 000; 1:20 000; 1:50 000; 1:100 000; 1:200 000; 1:500 000; 1:1 000 000…).<br><br>Dumping grounds (S-4 B-412/B-446) are to be shown at scales equal to or larger than the dataset’s compilation scale (e.g. coastal, approach and harbour scales) and may be suppressed at smaller scales via the `SCAMIN` attribute.
 
 - **Remarks:**  
   1. Use the `INFORM` attribute to record the specified least depth (m).  
